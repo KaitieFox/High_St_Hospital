@@ -17,8 +17,18 @@ namespace High_St_Hospital
             get { return this.specialtyArea; }
         }
 
+        //constructors
+        public Doctor()
+        {
 
+        }
 
+        public Doctor(string employeeName, int employeeNumber, string specialtyArea)
+        {
+            this.employeeName = employeeName;
+            this.employeeNumber = employeeNumber;
+            this.specialtyArea = specialtyArea;
+        }
 
 
     }

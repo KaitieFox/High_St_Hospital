@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace High_St_Hospital
 {
-    class Nurse :Departmental_Employee
+    class Nurse : Departmental_Employee
     {
         //fields
         private int numberOfPatients;
@@ -24,11 +24,12 @@ namespace High_St_Hospital
 
         }
 
-        public Nurse(string employeeName, int employeeNumber, string department)
+        public Nurse(string employeeName, int employeeNumber, string department, int numberOfPatients)
         {
             this.employeeName = employeeName;
             this.employeeNumber = employeeNumber;
             this.department = department;
+            this.numberOfPatients = numberOfPatients;
         }
 
 

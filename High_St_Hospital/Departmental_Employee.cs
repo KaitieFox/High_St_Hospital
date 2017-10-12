@@ -19,6 +19,11 @@ namespace High_St_Hospital
         }
 
         //Constructor??
+        public Departmental_Employee()
+        {
+
+        }
+        
         public Departmental_Employee(string employeeName, int employeeNumber, string department)
         {
             this.employeeName = employeeName;

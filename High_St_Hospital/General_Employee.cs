@@ -24,9 +24,17 @@ namespace High_St_Hospital
             get { return this.employeeNumber; }
         }
 
+        //constructor
+        public General_Employee()
+        {
 
+        }
 
-
+        public General_Employee(string employeeName, int employeeNumber)
+        {
+            this.employeeName = employeeName;
+            this.employeeNumber = employeeNumber;
+        }
 
 
 

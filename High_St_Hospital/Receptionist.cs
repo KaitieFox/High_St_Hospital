@@ -29,7 +29,10 @@ namespace High_St_Hospital
             this.employeeName = employeeName;
             this.employeeNumber = employeeNumber;
             this.department = department;
+            bool onPhone = false;
         }
+
+
 
 
 

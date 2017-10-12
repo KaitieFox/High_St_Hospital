@@ -18,8 +18,19 @@ namespace High_St_Hospital
             set { this.operating = value; }
         }
 
+        //constructors
+        public Surgeon()
+        {
 
+        }
 
+        public Surgeon(string employeeName, int employeeNumber, string specialtyArea)
+        {
+            this.employeeName = employeeName;
+            this.employeeNumber = employeeNumber;
+            this.specialtyArea = specialtyArea;
+            bool operating = false;
+        }
 
 
     }
